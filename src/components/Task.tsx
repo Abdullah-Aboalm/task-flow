@@ -30,7 +30,7 @@ const Task: FC<TaskType> = ({ id, title, completed }) => {
             completed
               ? "line-through text-muted dark:text-muted"
               : "dark:text-white"
-          }`}
+          } break-all mr-4`}
         >
           {title}
         </span>
