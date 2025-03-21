@@ -9,7 +9,7 @@ const Navbar = () => {
     <header className="p-4 shadow bg-white text-dark-gray dark:bg-dark-gray dark:text-white">
       <nav className="flex bg-transparent items-center justify-between">
         <img src={theme === "dark" ? lightLogo : darkLogo} alt="logo" />
-        <button onClick={toggleTheme}>
+        <button className="cursor-pointer" onClick={toggleTheme}>
           {theme === "dark" ? (
             <PiSunLight size={20} />
           ) : (
